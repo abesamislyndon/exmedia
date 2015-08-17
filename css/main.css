@@ -1,0 +1,134 @@
+body{
+background:url(../img/1.jpg) no-repeat center center fixed; 
+background-size: cover;
+height:100%; 
+}
+
+.header{
+    background:#fff;
+    border-bottom:none;
+}
+
+.nav-style {
+  height:140px;
+  background:#fff; 
+  border-bottom: none;
+}
+.nav-style ul{
+  margin-top:40px;
+}
+
+.nav-style ul li a{
+  color: #333  !important;
+   font-family: 'Conv_gotham-rounded-medium';
+   text-shadow:none;
+}
+
+.logo{
+  margin-top:-10px; 
+} 
+
+.tagline{
+  padding:70px; 
+  font-size:22px; 
+}
+.center-div{
+  position: fixed;
+  top: 53%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center; 
+  color: #000;
+}
+
+.box1{
+    height:220px;
+}
+
+.box p{
+  color:#999; 
+ font-family: 'Conv_gotham-rounded-medium';
+ font-size:14px; 
+}
+
+/*==============================
+  services
+==============================*/
+
+.services-header{
+    margin-top:170px; 
+}
+
+/*==============================
+  media queries
+==============================*/
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+
+/*==============================
+    @font-face style
+==============================*/
+@font-face {
+    font-family: 'glametrixbold';
+    src: url('../fonts/glametrixbold-webfont.eot');
+    src: url('../fonts/glametrixbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/glametrixbold-webfont.woff2') format('woff2'),
+         url('../fonts/glametrixbold-webfont.woff') format('woff'),
+         url('../fonts/glametrixbold-webfont.ttf') format('truetype'),
+         url('../fonts/glametrixbold-webfont.svg#glametrixbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Conv_gotham-rounded-medium';
+    src: url('../fonts/gotham-rounded-medium.eot');
+    src: local('☺'), url('../fonts/gotham-rounded-medium.woff') format('woff'), url('../fonts/gotham-rounded-medium.ttf') format('truetype'), url('../fonts/gotham-rounded-medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'bukhari_scriptregular';
+    src: url('../fonts/bukhari_script-webfont.eot');
+    src: url('../fonts/bukhari_script-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bukhari_script-webfont.woff2') format('woff2'),
+         url('../fonts/bukhari_script-webfont.woff') format('woff'),
+         url('../fonts/bukhari_script-webfont.ttf') format('truetype'),
+         url('../fonts/bukhari_script-webfont.svg#bukhari_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'facundaregular_shadow';
+    src: url('../fonts/facunda_shadow-webfont.eot');
+    src: url('../fonts/facunda_shadow-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/facunda_shadow-webfont.woff2') format('woff2'),
+         url('../fonts/facunda_shadow-webfont.woff') format('woff'),
+         url('../fonts/facunda_shadow-webfont.ttf') format('truetype'),
+         url('../fonts/facunda_shadow-webfont.svg#facundaregular_shadow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'nevis-Bold';
+  src: url('../fonts/nevis-Bold.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
