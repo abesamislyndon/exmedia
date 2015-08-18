@@ -41,6 +41,7 @@
 <div class="box">
 <img src="img/icon/social.png" alt="">
 <br><p>Social Media Marketing</p>
+ <a href="" ng-controller = "MainCtrl" ng-click="openDefault()">read more</a>
 </div>
 </div>
 
@@ -53,3 +54,15 @@
 
 </div>
 </div>
+
+
+<script type="text/ng-template" id="firstDialogId">
+    <div class="ngdialog-message">
+        <h3>Social Media Marketing</h3>
+        <p ng-show="dialogModel.message">{{dialogModel.message}}</p>
+    </div>
+</script>
+
+<script type="text/ng-template" id="secondDialogId">
+    <h3><a href="" ng-click="closeSecond()">Close all by click here!</a></h3>
+</script>
