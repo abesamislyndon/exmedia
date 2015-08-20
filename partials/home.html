@@ -3,66 +3,98 @@
 
 <div class="col-md-4">
 <div class="box">
-<img src="img/icon/webdev-icon.png" alt="">
-<br><p>Web Development</p>
+<a href="" ng-controller = "MainCtrl" ng-click="WebDevelopment()"><img src="img/icon/webdev-icon.png" alt=""></a>
+<br><p>Web Development</p><br>
 </div>
 </div>
 
 <div class="col-md-4">
 <div class="box">
-<img src="img/icon/ecom.png" alt="">
-<br><p>Ecommerce</p>
+<a href="" ng-controller = "MainCtrl" ng-click="Ecommerce()"><img src="img/icon/ecom.png" alt=""></a>
+<br><p>Ecommerce</p><br>
 </div>
 </div>
 
 <div class="col-md-4">
 <div class="box">
-<img src="img/icon/graphic-icon.png" alt="">
-<br><p>Graphic and Print Design</p>
+<a href="" ng-controller = "MainCtrl" ng-click="GraphicDesign()"><img src="img/icon/graphic-icon.png" alt=""></a>
+<br><p>Graphic and Print Design</p><br>
 </div>
 </div>
 
 <div class="col-md-12">
 <div class="box">
 <br>
-<hr>
 <h1 class  = "tagline">Creating Notable Design and Application</h1>
 </div>
 </div>
 
 <div class="col-md-4">
 <div class="box">
-<img src="img/icon/seo.png" alt="">
-<br><p>Search Engine Optimization</p>
+<a href="" ng-controller = "MainCtrl" ng-click="Seo()"><img src="img/icon/seo.png" alt=""></a>
+<br><p>Search Engine Optimization</p><br>
 </div>
 </div>
 
 <div class="col-md-4">
 <div class="box">
-<img src="img/icon/social.png" alt="">
-<br><p>Social Media Marketing</p>
- <a href="" ng-controller = "MainCtrl" ng-click="openDefault()">read more</a>
+<a href="" ng-controller = "MainCtrl" ng-click="SocialMedia()"><img src="img/icon/social.png" alt=""></a>
+<br><p>Social Media Marketing</p><br>
 </div>
 </div>
 
 <div class="col-md-4">
 <div class="box">
-<img src="img/icon/branding.png" alt="">
-<br><p>Branding</p>
+<a href="" ng-controller = "MainCtrl"  ng-click="Branding()"><img src="img/icon/branding.png" alt=""></a>
+<br><p>Branding</p><br>
+</div>
+</div>
 </div>
 </div>
 
-</div>
-</div>
 
+<script type="text/ng-template" id="WebDevId">
+<div class="ngdialog-message">
+<h3>Web Development</h3>
+<p ng-bind-html="dialogModel.message">{{dialogModel.message}}</p>
+</div>
+</script>
 
-<script type="text/ng-template" id="firstDialogId">
-    <div class="ngdialog-message">
-        <h3>Social Media Marketing</h3>
-        <p ng-show="dialogModel.message">{{dialogModel.message}}</p>
-    </div>
+<script type="text/ng-template" id="EcommerceId">
+<div class="ngdialog-message">
+<h3>Ecommerce</h3>
+<p ng-bind-html="dialogModel.message">{{dialogModel.message}}</p>
+</div>
+</script>
+
+<script type="text/ng-template" id="GraphicId">
+<div class="ngdialog-message">
+<h3>Graphic and Print Design</h3>
+<p ng-bind-html="dialogModel.message">{{dialogModel.message}}</p>
+</div>
+</script>
+
+<script type="text/ng-template" id="SeoId">
+<div class="ngdialog-message">
+<h3>Search Engine Optimization</h3>
+<p ng-bind-html="dialogModel.message">{{dialogModel.message}}</p>
+</div>
+</script>
+
+<script type="text/ng-template" id="SocialMediaId">
+<div class="ngdialog-message">
+<h3>Social Media Marketing</h3>
+<p ng-bind-html="dialogModel.message">{{dialogModel.message}}</p>
+</div>
+</script>
+
+<script type="text/ng-template" id="BrandingId">
+<div class="ngdialog-message">
+<h3>Branding</h3>
+<p ng-bind-html="dialogModel.message">{{dialogModel.message}}</p>
+</div>
 </script>
 
 <script type="text/ng-template" id="secondDialogId">
-    <h3><a href="" ng-click="closeSecond()">Close all by click here!</a></h3>
+<h3><a href="" ng-click="closeSecond()">Close all by click here!</a></h3>
 </script>

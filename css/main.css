@@ -9,6 +9,9 @@ height:100%;
     border-bottom:none;
 }
 
+/*==============================
+  navifgation
+==============================*/
 .nav-style {
   height:140px;
   background:#fff; 
@@ -24,24 +27,32 @@ height:100%;
    text-shadow:none;
 }
 
+/*==============================
+  logo
+==============================*/
 .logo{
   margin-top:-10px; 
 } 
 
 .tagline{
   padding:70px; 
-  font-size:22px; 
+  font-size:40px; 
 }
+
+/*==============================
+  center design
+==============================*/
 .center-div{
-  position: fixed;
-  top: 53%;
-  left: 50%;
+  position:absolute;
+  top:53%;
+  left:50%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center; 
   color: #000;
+  margin-bottom: 90px;
 }
 
 .box1{
@@ -60,6 +71,49 @@ height:100%;
 
 .services-header{
     margin-top:170px; 
+}
+
+/*==============================
+  footer
+==============================*/
+.site-footer{
+    position:relative;
+    height:320px;
+    background:rgba(0,0,0,0.2);
+    width:100%;  
+    padding:10px; 
+}
+
+/*==============================
+  Social Media
+==============================*/
+.socialmedia ul{
+  display: none
+}
+
+
+/*==============================
+  ASSETS STYLES
+==============================*/
+
+.read-more{
+  padding:8px 10px;
+  color:#333;
+  border:1px solid #ccc;
+  font-size: 12px;
+  border-radius:1px;    
+}
+.con{
+  padding:40px 40px; 
+}
+.con p{
+  color:#999;
+  font-size:16px;  
+}
+.con h3{
+  font-family: 'Conv_gotham-rounded-medium';
+  padding:10px 0px;
+  font-size: 18px; 
 }
 
 /*==============================
