@@ -1,12 +1,70 @@
 body{
-background:url(../img/1.jpg) no-repeat center center fixed; 
+background:url(../img/bg2.jpg) no-repeat center center fixed; 
 background-size: cover;
 height:100%; 
+
 }
+h3{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 26.4px;
+  font-size:45px; 
+  font-weight:300;
+  color:#fff; 
+}
+h5{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style:normal;
+  font-variant: normal;
+  line-height: 60.4px;
+  font-size:55px; 
+  font-weight: bold;
+  color:#fff; 
+}
+
 
 .header{
     background:#fff;
-    border-bottom:none;
+  border-bottom:none;
+}
+.tagline-center{
+  margin-top: 170px;
+  text-align: center;
+}
+.main-container:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 736px;
+  width: 100%;
+  height:600px;
+  background: #424242;
+  -webkit-transform: skewY(7.5deg);
+  -moz-transform: skewY(7.5deg);
+  -ms-transform: skewY(7.5deg);
+  -o-transform: skewY(7.5deg);
+  transform: skewY(7.5deg);
+}
+.main-container:after{
+  content: '';
+  background:#f1f1f1; 
+  width: 100%;
+  height:490px;
+  position: absolute;
+  left: 0;
+  top:1220px; 
+}
+.main-container p{
+  position:relative;
+  color:#fff; 
+  margin-top:120px; 
+}
+.tag{  
+  margin: 1210px 0;
+  padding: 0 20px;
+  padding-bottom: 10px;
+  position: relative;
 }
 
 /*==============================
@@ -14,7 +72,7 @@ height:100%;
 ==============================*/
 .nav-style {
   height:140px;
-  background:#fff; 
+  background:none; 
   border-bottom: none;
 }
 .nav-style ul{
@@ -22,7 +80,7 @@ height:100%;
 }
 
 .nav-style ul li a{
-  color: #333  !important;
+  color: #fff  !important;
    font-family: 'Conv_gotham-rounded-medium';
    text-shadow:none;
 }
@@ -31,89 +89,12 @@ height:100%;
   logo
 ==============================*/
 .logo{
-  margin-top:-10px; 
+  margin-top:25px; 
 } 
 
 .tagline{
   padding:70px; 
   font-size:40px; 
-}
-
-/*==============================
-  center design
-==============================*/
-.center-div{
-  position:absolute;
-  top:53%;
-  left:50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center; 
-  color: #000;
-  margin-bottom: 90px;
-}
-
-.box1{
-    height:220px;
-}
-
-.box p{
-  color:#999; 
- font-family: 'Conv_gotham-rounded-medium';
- font-size:14px; 
-}
-
-/*==============================
-  services
-==============================*/
-
-.services-header{
-    margin-top:170px; 
-}
-
-/*==============================
-  footer
-==============================*/
-.site-footer{
-    position:relative;
-    height:320px;
-    background:rgba(0,0,0,0.2);
-    width:100%;  
-    padding:10px; 
-}
-
-/*==============================
-  Social Media
-==============================*/
-.socialmedia ul{
-  display: none
-}
-
-
-/*==============================
-  ASSETS STYLES
-==============================*/
-
-.read-more{
-  padding:8px 10px;
-  color:#333;
-  border:1px solid #ccc;
-  font-size: 12px;
-  border-radius:1px;    
-}
-.con{
-  padding:40px 40px; 
-}
-.con p{
-  color:#999;
-  font-size:16px;  
-}
-.con h3{
-  font-family: 'Conv_gotham-rounded-medium';
-  padding:10px 0px;
-  font-size: 18px; 
 }
 
 /*==============================
